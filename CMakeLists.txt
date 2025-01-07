@@ -29,7 +29,7 @@ install(DIRECTORY
 # Install the Python node
 install(
   PROGRAMS
-  robot_controller/robot_controller.py  # Path to your Python node script
+  scripts/robot_controller.py  # Path to your Python node script
   DESTINATION lib/${PROJECT_NAME}       # Install to the lib folder under project name
 )
 
